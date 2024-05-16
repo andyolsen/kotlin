@@ -1,0 +1,42 @@
+package demos.coroutines.composition
+
+import demos.coroutines.utils.MyUtil
+import kotlinx.coroutines.CoroutineStart
+import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.async
+
+// Start main coroutine.
+fun main() = runBlocking<Unit> {
+
+    // The async() function has an optional start argument, enables you to indicate LAZY operation.
+    // A LAZY operation is invoked only if you await() its result, i.e. it is computed lazily.
+
+    MyUtil.display("main calling func1")
+    val res1 = async(start = CoroutineStart.LAZY) { func1() }
+
+    MyUtil.display("main calling func2")
+    val res2 = async(start = CoroutineStart.LAZY) { func2() }
+
+    MyUtil.display("main doing some other work in the meantime...")
+    delay(2_000)
+
+    // When you want to get the result from a Deferred, call await().
+    MyUtil.display("main about to calculate sum")
+    val sum = res1.await() + res2.await()
+    MyUtil.display("main sum is $sum")
+}
+
+private suspend fun func1(): Int {
+    MyUtil.display("func1 start")
+    delay(10_000L)
+    MyUtil.display("func1 end")
+    return 30
+}
+
+private suspend fun func2(): Int {
+    MyUtil.display("func2 start")
+    delay(5_000L)
+    MyUtil.display("func2 end")
+    return 12
+}

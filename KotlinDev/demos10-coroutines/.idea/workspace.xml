@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="68347747-2721-4e8d-977d-afb2c940c7a4" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2XwrNINLinj8bOApCurvX7w46U4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/KotlinDev/demos10-coroutines/src/main"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\KotlinDev\demos10-coroutines\src\main" />
+      <recent name="C:\KotlinDev\demos10-coroutines\src\main\kotlin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\KotlinDev\demos10-coroutines\src\main\kotlin" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="mypackage" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.Demo05b_CoroutinesAreLightweightKt">
+    <configuration name="Demo03b_StructuredConcurrencyViaMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mypackage.Demo03b_StructuredConcurrencyViaMainKt" />
+      <module name="demos10-coroutines.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo04b_StructuredConcurrencyInActionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mypackage.Demo04b_StructuredConcurrencyInActionKt" />
+      <module name="demos10-coroutines.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo04c_StructuredConcurrencyInActionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mypackage.Demo04c_StructuredConcurrencyInActionKt" />
+      <module name="demos10-coroutines.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo05a_ThreadsAreHeavyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mypackage.Demo05a_ThreadsAreHeavyKt" />
+      <module name="demos10-coroutines.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo05b_CoroutinesAreLightweightKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mypackage.Demo05b_CoroutinesAreLightweightKt" />
+      <module name="demos10-coroutines.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.Demo05b_CoroutinesAreLightweightKt" />
+        <item itemvalue="Kotlin.Demo05a_ThreadsAreHeavyKt" />
+        <item itemvalue="Kotlin.Demo04c_StructuredConcurrencyInActionKt" />
+        <item itemvalue="Kotlin.Demo04b_StructuredConcurrencyInActionKt" />
+        <item itemvalue="Kotlin.Demo03b_StructuredConcurrencyViaMainKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68347747-2721-4e8d-977d-afb2c940c7a4" name="Changes" comment="" />
+      <created>1699550942708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699550942708</updated>
+    </task>
+    <servers />
+  </component>
+</project>
